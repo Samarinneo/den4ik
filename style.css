@@ -1,0 +1,91 @@
+.button {
+  width: 200px;
+  height: 110px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: crimson;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  color: white;
+  background-color: rgba(173, 0, 43, 0.959);
+}
+
+.button2 {
+  width: 200px;
+  height: 110px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #14dc1e;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.button2:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  color: white;
+  background-color: rgba(46, 231, 0, 0.959);
+}
+
+.button3 {
+  width: 200px;
+  height: 110px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #0004ff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.button3:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  color: white;
+  background-color: rgba(42, 0, 139, 0.959);
+}
+
+.koteret img {
+  display: block;
+  width: 200px;
+}
+
+.koteret,
+.koteret2,
+.koteret3 {
+  display: none;
+  font-size: 2em;
+}
+
+.koteret2 {
+  font-weight: bold;
+}
+
+.active {
+  display: block;
+}
+
+.kvadrat {
+  width: 100px;
+  height: 300px;
+  background-color: green;
+}
+
+.slova {
+  max-width: 500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
